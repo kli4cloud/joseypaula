@@ -1,0 +1,71 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Jose y Pala
+email: info@joseypaula.com
+description: Kli4cloud Website
+locale: "en_US"
+repository: "kli4cloud/joseypaula.github.io"
+url: "http://www.joseypaula.com"
+
+social:
+  name: "Kli4cloud"
+  links:
+    - "https://twitter.com/joseypaula"
+    - "https://github.com/joseypaula"
+    - "https://www.linkedin.com/company/18332746"
+
+feed:
+  path: "http://www.joseypaula.com/atom.xml"
+
+author:
+  name: Jose Morales
+  gravatar: b88b443c231c48a5287825d1a0ca2e7a
+  email: info@joseypaula.com
+  uri: &uri "https://www.joseypaula.com/"
+  url: *uri
+  bio: "Developer, Architect and Entrepreneur"
+  picture: "/images/jose-morales.jpg"
+  twitter: "https://twitter.com/joseypaula"
+  github: "https://github.com/kli4cloud"
+  linkedin: "https://www.linkedin.com/in/josemoralesmartinez/"
+
+twitter:
+  username: "kli4cloud"
+github:
+  username: "kli4cloud"
+staticman:
+  branch: "master"
+
+# Build settings
+markdown: kramdown
+theme: minima
+sass:
+    sass_dir: _sass
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
