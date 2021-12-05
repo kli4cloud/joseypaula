@@ -237,6 +237,15 @@ html {
 	border-color: #fff
 }
 
+#aboutus {
+	background-color: #50b796;
+	color: #fff
+}
+
+#aboutus .underline {
+	border-color: #fff
+}
+
 #getting-there {
 	background-color: #50b796;
 	color: #fff
@@ -1162,6 +1171,10 @@ input[type=submit].link-button.golden:hover {
 }
 
 #destination .asheville-image {
+	width: 350px
+}
+
+#aboutus .aboutus-image {
 	width: 350px
 }
 
