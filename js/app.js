@@ -351,8 +351,10 @@
                     }, r.createElement("a", {
                         onClick: this.close,
                         href: "#destination"
-                    }, "DESTINO SEVILLA")), r.createElement("li", {
+                    }, "NOSOTROS")), r.createElement("li", {
                         className: "nav-link mobile-only"
+                    }, "DESTINO SEVILLA")), r.createElement("li", {
+                        className: "nav-link mobile-only
                     }, r.createElement("a", {
                         onClick: this.close,
                         href: "#getting-there"
@@ -361,7 +363,7 @@
                     }, r.createElement("a", {
                         onClick: this.close,
                         href: "#schedule"
-                    }, "THE WEEKEND")), r.createElement("li", {
+                    }, "LA BODA")), r.createElement("li", {
                         className: "nav-link mobile-only"
                     }, r.createElement("a", {
                         onClick: this.close,
