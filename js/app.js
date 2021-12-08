@@ -840,7 +840,7 @@
                     }, 0),
                     i = [];
                 if (e.invitedBridalBrunch) {
-                    var s = r.find(t.friday, function(e) {
+                    var s = r.find(t.viernes, function(e) {
                         return "bridal brunch" === e.name
                     });
                     i.push(o.createElement(a, {
@@ -853,7 +853,7 @@
                     }))
                 }
                 if (e.invitedFlowerFarm) {
-                    var c = r.find(t.friday, function(e) {
+                    var c = r.find(t.viernes, function(e) {
                         return "Recepción de invitados" === e.name
                     });
                     i.push(o.createElement(a, {
@@ -866,7 +866,7 @@
                     }))
                 }
                 if (e.invitedRehearsalDinner) {
-                    var u = r.find(t.friday, function(e) {
+                    var u = r.find(t.viernes, function(e) {
                         return "Cena de bienvenida" === e.name
                     });
                     i.push(o.createElement(a, {
@@ -880,7 +880,7 @@
                     }))
                 }
                 if (e.invitedWelcomeParty) {
-                    var l = r.find(t.friday, function(e) {
+                    var l = r.find(t.viernes, function(e) {
                         return "Fiesta de bienvenida" === e.name
                     });
                     i.push(o.createElement(a, {
@@ -899,7 +899,7 @@
                     }, o.createElement("h4", null, "Wedding & Reception*"), o.createElement("p", null, "Saturday 4:30 to 11:00 PM"), o.createElement("p", null, "Yesterday Spaces")), o.createElement("div", {
                         className: "right-side"
                     }))), e.invitedSundayBrunch) {
-                    var p = r.find(t.sunday, function(e) {
+                    var p = r.find(t.domingo, function(e) {
                         return "farewell picnic" === e.name
                     });
                     i.push(o.createElement(a, {
@@ -1079,7 +1079,7 @@
                 },
                 componentDidMount: function() {
                     null == this.state.current_day && this.setState({
-                        current_day: "friday"
+                        current_day: "viernes"
                     })
                 },
                 setDay: function(e) {
@@ -1102,24 +1102,24 @@
                     }, r.createElement("li", null, r.createElement("a", {
                         className: a({
                             day: !0,
-                            active: "friday" === this.state.current_day
+                            active: "viernes" === this.state.current_day
                         }),
                         href: "#schedule",
-                        onClick: this.setDay("friday")
+                        onClick: this.setDay("viernes")
                     }, "VIERNES")), r.createElement("li", null, r.createElement("a", {
                         className: a({
                             day: !0,
-                            active: "saturday" === this.state.current_day
+                            active: "sabado" === this.state.current_day
                         }),
                         href: "#schedule",
-                        onClick: this.setDay("saturday")
+                        onClick: this.setDay("sabado")
                     }, "SÁBADO")), r.createElement("li", null, r.createElement("a", {
                         className: a({
                             day: !0,
-                            active: "sunday" === this.state.current_day
+                            active: "domingo" === this.state.current_day
                         }),
                         href: "#schedule",
-                        onClick: this.setDay("sunday")
+                        onClick: this.setDay("domingo")
                     }, "DOMINGO"))), e)
                 }
             });
@@ -1185,7 +1185,7 @@
                     screens: ["intro", "start", "otherEvents", "thankyou"]
                 },
                 days: {
-                    friday: [{
+                    viernes: [{
                         name: "Recepción de invitados",
                         attendees: "Family and Bridal Party - Ladies Only",
                         dress: "Casual",
@@ -1207,7 +1207,7 @@
                         location: "Hi-Wire Biltmore Big Top",
                         map: "https://goo.gl/maps/ksIja"
                     }],
-                    saturday: [{
+                    sabado: [{
                         name: "Traslado (BUS)",
                         attendees: "All Interested",
                         time: "3:00PM",
@@ -1245,7 +1245,7 @@
                        location: "Drop-off at Holiday Inn - Tunnel Road",
                        map: "https://goo.gl/maps/RvgDE"
                     }],
-                    sunday: [{
+                    domingo: [{
                         name: "Brunch de despedida",
                         attendees: "All Guests",
                         dress: "Casual",
