@@ -244,7 +244,7 @@
             })), r.createElement("p", {
                 className: "address"
             }, "42 Tunnel Road", r.createElement("br", null), "Asheville, NC 28805"), r.createElement("p", null, "We have a block of rooms at the Holiday Inn at Tunnel Road. You may book online or by phone."), r.createElement("h4", null, "by phone"), r.createElement("p", null, "Call 828-225-5550 using the group name ", r.createElement("strong", null, "Hancock Klise Wedding")), r.createElement("h4", null, "online"), r.createElement("ol", null, r.createElement("li", null, "Click ", r.createElement("a", {
-                href: "http://www.holidayinn.com/asheville-dwtn",
+                href: "https://www.holidayinn.com/asheville-dwtn",
                 target: "_blank"
             }, "this link"), " to visit the Holiday Inn website."), r.createElement("li", null, "Choose check in and check out dates between September 18 and 20."), r.createElement("li", null, 'Click "Have a Group Code?" and enter ', r.createElement("strong", null, "HKW")), r.createElement("li", null, "Submit the form to book a room"))),
             _onChange: function() {
@@ -6028,7 +6028,7 @@
             d = o.injection.HAS_OVERLOADED_BOOLEAN_VALUE;
         if (i.canUseDOM) {
             var f = document.implementation;
-            r = f && f.hasFeature && f.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")
+            r = f && f.hasFeature && f.hasFeature("https://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")
         }
         var h = {
             isCustomAttribute: RegExp.prototype.test.bind(/^(data|aria)-[a-z_][a-z\d_.\-]*$/),
@@ -7147,7 +7147,7 @@
                         e = this._maskContext(e), t = this._maskContext(t);
                         for (var r = Object.keys(t).sort(), o = this.getName() || "ReactCompositeComponent", i = 0; i < r.length; i++) {
                             var a = r[i];
-                            "production" !== n.env.NODE_ENV ? C(e[a] === t[a], "owner-based and parent-based contexts differ (values: `%s` vs `%s`) for key (%s) while mounting %s (see: http://fb.me/react-context-by-parent)", e[a], t[a], a, o) : null
+                            "production" !== n.env.NODE_ENV ? C(e[a] === t[a], "owner-based and parent-based contexts differ (values: `%s` vs `%s`) for key (%s) while mounting %s (see: https://fb.me/react-context-by-parent)", e[a], t[a], a, o) : null
                         }
                     },
                     updateComponent: function(e, t, r, o, i) {
