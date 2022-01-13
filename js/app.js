@@ -162,7 +162,7 @@
             }, {
                 q: "¿Va a ser un fiestón?",
                 a: "<p>¡CONFIRMAMOS QUE SI!</p>"
-            }, {
+            }]/*, {
                 q: "What will the weather be like in Asheville that time of year?",
                 a: "<p>Asheville averages a high of 77F and a low of 57F during the month of September. A light jacket and/or rain gear may be useful during your stay.</p>"
             }],
@@ -179,7 +179,7 @@
             }, {
                 q: "What hashtag should I use for sharing photos from other times of the weekend?",
                 a: 'We\'ll be using the hashtag <strong>#hanklise</strong> for all of your <a target="_blank" href="https://instagram.com/explore/tags/hanklise/">Instagram</a>, <a target="_blank" href="https://twitter.com/search?f=tweets&q=%23hanklise&src=typd">Twitter</a> or <a target="_blank" href="https://www.facebook.com/search/str/%23hanklise/keywords_top">Facebook</a>.'
-            }]
+            }]*/
         }, t.exports = o.createClass({
             displayName: "FAQIndex",
             render: function() {
