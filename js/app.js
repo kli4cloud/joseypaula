@@ -150,18 +150,18 @@
             i = (e("classnames"), e("./faq-show"));
         faqs = {
             calendar: [{
-                q: "There are a lot of things on the schedule. What events should I attend?",
-                a: "<p>We wanted the schedule a holistic view of the events we've planned, but please only join in for the events shown under your RSVP.</p>"
+                q: "¿Qué tiempo suele hacer en Sevilla en Septiembre? ",
+                a: "<p>En Sevilla, a principios de septiembre, el tiempo es seco. La temperatura máxima está en torno a los 30 grados, y las mínimas alrededor de 20 grados. Recordad que la boda es de tarde, y se prolongará…</p>"
             }, {
-                q: "When should I arrive and how long should I stay?",
-                a: "<p>Most of the events kick off on Friday night and end on Sunday afternoon, but please enjoy the area for as long as you're able.</p>"
+                q: "¿Tendrá el menú de la boda opciones para alérgicos, veganos, etc?",
+                a: "<p>Sí, por favor comunicadnos cualquier restricción o aspecto a tener en cuenta al rellenar el RSVP (confirmar asistencia).</p>"
             }],
             suitcase: [{
-                q: "What should I wear? shoes, dress, etc.",
-                a: "<p>Shoes: Weather permitting, the ceremony and parts of the reception will be outdoors, so shoes that can traverse gravel and grass would make your life easier.</p> <p>Dress: Wear whatever makes you feel classy without sacrificing your comfort. Think &lsquo;Cate Blanchett goes camping&rsquo;.</p><p>Stilleto heels are not allowed at Yesterday Spaces.</p>"
+                q: "¿Cuándo debería llegar a Sevilla?",
+                a: "<p>Podéis llegar a Sevilla cuando os apetezca en función de lo que prefiráis hacer, pero entendemos que puede haber restricciones de vuelos, por ejemplo. Aunque el viernes ya hay algún evento, la boda empieza el sábado 10 de septiembre a las XX en el Cortijo el Esparragal, así que esta es la fecha y hora a tener en cuenta. Si vas a necesitar el servicio de traslado de autobús al cortijo, entonces tendrás que estar list@ a las XX en XX. </p>"
             }, {
-                q: "Should I pack anything special?",
-                a: "<p>The hotel will have a pool, and if the temperature is right, the area has a lot of swimming holes you may or may not want to explore. If so, a bathing suit is a must! Hiking boots/comfortable sneakers would also ensure your ability to explore in comfort.</p>"
+                q: "¿Va a ser un fiestón?",
+                a: "<p>¡CONFIRMAMOS QUE SI!</p>"
             }, {
                 q: "What will the weather be like in Asheville that time of year?",
                 a: "<p>Asheville averages a high of 77F and a low of 57F during the month of September. A light jacket and/or rain gear may be useful during your stay.</p>"
