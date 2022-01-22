@@ -401,6 +401,199 @@ input[type=submit].link-button.golden:hover {
 	max-width: 200px
 }
 
+.addeventatc .start,
+.addeventatc .end,
+.addeventatc .timezone,
+.addeventatc .title,
+.addeventatc .description,
+.addeventatc .location,
+.addeventatc .organizer,
+.addeventatc .organizer_email,
+.addeventatc .facebook_event,
+.addeventatc .all_day_event,
+.addeventatc .date_format,
+.addeventatc .alarm_reminder,
+.addeventatc .recurring,
+.addeventatc .attendees,
+.addeventatc .calname,
+.addeventatc .uid,
+.addeventatc .status,
+.addeventatc .method,
+.addeventatc .client,
+.addeventatc .transp {
+	display: none!important;
+}
+
+
+/* Drop down */
+
+.addeventatc_dropdown {
+	width: 230px;
+	position: absolute;
+	padding: 6px 0px 0px 0px;
+	font-family: "Open Sans", Roboto, "Helvetica Neue", Helvetica, Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	color: #000!important;
+	font-weight: 600;
+	line-height: 100%;
+	background: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: left;
+	margin-left: -1px;
+	display: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
+	transform: scale(.98, .98) translateY(5px);
+	z-index: -1;
+	transition: transform .15s ease;
+	-webkit-user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.addeventatc_dropdown.topdown {
+	transform: scale(.98, .98) translateY(-5px)!important;
+}
+
+.addeventatc_dropdown span {
+	display: block;
+	line-height: 100%;
+	background: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 15px;
+	color: #333;
+	font-weight: 600;
+	padding: 14px 10px 14px 55px;
+	margin: -2px 0px;
+}
+
+.addeventatc_dropdown span:hover {
+	background-color: #f4f4f4;
+	color: #000;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.addeventatc_dropdown em {
+	color: #999!important;
+	font-size: 12px!important;
+	font-weight: 400;
+}
+
+.addeventatc_dropdown .frs a {
+	background: #fff;
+	color: #cacaca!important;
+	cursor: pointer;
+	font-size: 9px!important;
+	font-style: normal!important;
+	font-weight: 400!important;
+	line-height: 110%!important;
+	padding-left: 10px;
+	position: absolute;
+	right: 10px;
+	text-align: right;
+	text-decoration: none;
+	top: 5px;
+	z-index: 101;
+}
+
+.addeventatc_dropdown .frs a:hover {
+	color: #999!important;
+}
+
+.addeventatc_dropdown .ateappleical {
+	background: url(../images/icon-apple-t5.svg) 18px 40% no-repeat;
+	background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .ategoogle {
+	background: url(../images/icon-google-t5.svg) 18px 50% no-repeat;
+	background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .ateoffice365 {
+	background: url(../images/icon-office365-t5.svg) 19px 50% no-repeat;
+	background-size: 18px 100%;
+}
+
+.addeventatc_dropdown .ateoutlook {
+	background: url(../images/icon-outlook-t5.svg) 18px 50% no-repeat;
+	background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .ateoutlookcom {
+	background: url(../images/icon-outlookcom-t5.svg) 18px 50% no-repeat;
+	background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .ateyahoo {
+	background: url(../images/icon-yahoo-t5.svg) 18px 50% no-repeat;
+	background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .atefacebook {
+	background: url(../images/icon-facebook-t5.svg) 18px 50% no-repeat;
+	background-size: 22px 100%;
+}
+
+.addeventatc_dropdown .copyx {
+	height: 21px;
+	display: block;
+	position: relative;
+	cursor: default;
+}
+
+.addeventatc_dropdown .brx {
+	height: 1px;
+	overflow: hidden;
+	background: #e8e8e8;
+	position: absolute;
+	z-index: 100;
+	left: 10px;
+	right: 10px;
+	top: 9px;
+}
+
+.addeventatc_dropdown.addeventatc-selected {
+	transform: scale(1, 1) translateY(0px);
+	z-index: 99999999999;
+}
+
+.addeventatc_dropdown.topdown.addeventatc-selected {
+	transform: scale(1, 1) translateY(0px)!important;
+}
+
+.addeventatc_dropdown .drop_markup {
+	background-color: #f4f4f4;
+}
+
+.addeventatc {
+    display:inline-block;
+    position:relative;
+    text-align:center;
+	color: #b18f3a;
+	text-decoration: none;
+	border-color: #b18f3a;
+	font-size: 19.2px;
+}
+
+
+.addeventatc:active {
+	border-width: 2px 1px 0px 1px;
+}
+
+.addeventatc-selected {
+	background-color: #f9f9f9;
+}
+
+.addeventatc br {
+	display: none;
+}
+
+
 .addthisevent-drop {
 	display: inline-block;
 	position: relative;
@@ -445,52 +638,6 @@ input[type=submit].link-button.golden:hover {
 	color: #b18f3a;
 	text-decoration: none;
 	font-size: 9pt
-}
-
-.addthisevent span,
-.addthisevent-drop ._all_day_event,
-.addthisevent-drop ._description,
-.addthisevent-drop ._end,
-.addthisevent-drop ._facebook_event,
-.addthisevent-drop ._location,
-.addthisevent-drop ._organizer,
-.addthisevent-drop ._organizer_email,
-.addthisevent-drop ._start,
-.addthisevent-drop ._summary,
-.addthisevent-drop ._url {
-	display: none!important
-}
-
-.addthisevent_dropdown .copyx {
-	display: none
-}
-
-.addthisevent_dropdown .brx {
-	width: 180px;
-	height: 1px;
-	overflow: hidden;
-	background: #e0e0e0;
-	position: absolute;
-	z-index: 51;
-	left: 10px;
-	top: 9px
-}
-
-.addthisevent_dropdown .frs {
-	position: absolute;
-	top: 5px;
-	cursor: pointer;
-	right: 10px;
-	padding-left: 10px;
-	font-style: normal;
-	font-weight: 400;
-	text-align: right;
-	z-index: 52;
-	line-height: 110%;
-	background: #fff;
-	text-decoration: none;
-	font-size: 9px;
-	color: #cacaca
 }
 
 #overlay-container,
