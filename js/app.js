@@ -1185,71 +1185,77 @@
                 days: {
                     viernes: [{
                         name: "Recepción de invitados",
-                        attendees: "Family and Bridal Party - Ladies Only",
+                        attendees: "Familia e Invitados de fuera de Sevilla",
                         dress: "Casual",
-                        time: "8:00 to 10:00AM",
-                        location: "Lady Luck Flower Farm",
-                        map: "https://goo.gl/maps/OC8DM"
+                        time: "20:30 a 21:00PM",
+                        location: "Terraza Hotel Doña María",
+                        map: "https://g.page/terrazadonamaria?share"
                     }, {
                         name: "Cena de bienvenida",
-                        attendees: "Family and Wedding Party",
+                        attendees: "Familia e Invitados de fuera de Sevilla",
                         dress: "Casual",
-                        time: "6:00PM to 9:00PM",
-                        location: "12 Bones South",
-                        map: "https://goo.gl/maps/ZjQih"
+                        time: "21:00 a 22:45PM",
+                        location: "Terraza Hotel Doña María",
+                        map: "https://g.page/terrazadonamaria?share"
                     }, {
                         name: "Fiesta de bienvenida",
-                        attendees: "All Guests",
-                        time: "9:00 to 12:00PM",
+                        attendees: "Todos los invitados",
+                        time: "22:45 en adelante",
                         dress: "Casual",
-                        location: "Hi-Wire Biltmore Big Top",
-                        map: "https://goo.gl/maps/ksIja"
+                        location: "Terraza Hotel Doña María",
+                        map: "https://g.page/terrazadonamaria?share"
                     }],
                     sabado: [{
                         name: "Traslado (BUS)",
-                        attendees: "All Interested",
-                        time: "3:00PM",
-                        location: "Holiday Inn - Tunnel Road",
-                        map: "https://goo.gl/maps/RvgDE"
+                        attendees: "Todos los interesados",
+                        time: "18:00",
+                        location: "Plaza de Cuba",
+                        map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
                     }, {
                         name: "Ceremonia",
-                        attendees: "All Guests",
+                        attendees: "Todos los invitados",
                         dress: "Classy yet comfortable",
-                        time: "4:30 to 11:00PM",
-                        location: "Yesterday Spaces",
-                        map: "https://goo.gl/maps/Eljl2"
+                        time: "20:00 a 20:45",
+                        location: "Cortijo El Esparragal",
+                        map: "https://g.page/hotelensevilla?share"
                     }, {
                         name: "Cocktail",
-                        attendees: "All Interested",
-                        time: "11:00PM",
-                        location: "Drop-off at Holiday Inn - Tunnel Road",
-                        map: "https://goo.gl/maps/RvgDE"
+                        attendees: "Todos los invitados",
+                        time: "21:00 a 22:30",
+                        location: "Cortijo El Esparragal",
+                        map: "https://g.page/hotelensevilla?share"
                     }, {
                        name: "Cena",
-                       attendees: "All Interested",
-                       time: "11:00PM",
-                       location: "Drop-off at Holiday Inn - Tunnel Road",
-                       map: "https://goo.gl/maps/RvgDE"
+                       attendees: "Todos los invitados",
+                       time: "22:30 a 00:00",
+                       location: "Cortijo El Esparragal",
+                       map: "https://g.page/hotelensevilla?share"
                     }, {
                        name: "Fiesta",
-                       attendees: "All Interested",
-                       time: "11:00PM",
-                       location: "Drop-off at Holiday Inn - Tunnel Road",
-                       map: "https://goo.gl/maps/RvgDE"
+                       attendees: "Todos los invitados",
+                       time: "00:00",
+                       location: "Cortijo El Esparragal",
+                       map: "https://g.page/hotelensevilla?share"
                     }, {
-                       name: "Traslado de vuelta (BUS)",
-                       attendees: "All Interested",
-                       time: "11:00PM",
-                       location: "Drop-off at Holiday Inn - Tunnel Road",
-                       map: "https://goo.gl/maps/RvgDE"
-                    }],
+                       name: "Salida 1º autobus de vuelta",
+                       attendees: "Todos los interesados",
+                       time: "02:00",
+                       location: "Cortijo El Esparragal",
+                       map: "https://g.page/hotelensevilla?share"
+                    }, {
+                        name: "Salida 2º bus de vuelta",
+                        attendees: "Todos los interesados",
+                        time: "05:00",
+                        location: "Cortijo El Esparragal",
+                        map: "https://g.page/hotelensevilla?share"
+                     }],
                     domingo: [{
                         name: "Brunch de despedida",
-                        attendees: "All Guests",
+                        attendees: "Todos los huespedes del Cortijo",
                         dress: "Casual",
-                        time: "10:00-2:00PM",
-                        location: "Carrier Park Pavilion",
-                        map: "https://goo.gl/maps/dNUC3"
+                        time: "12:00 a 13:00",
+                        location: "Cortijo El Esparragal",
+                        map: "https://g.page/hotelensevilla?share"
                     }]
                 }
             },
