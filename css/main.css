@@ -1917,6 +1917,12 @@ input[type=submit].link-button.golden:hover {
 	}
 }
 
+#travel {
+    background-color: #eabf8b;
+    color: #fff;
+	min-height: 90vh
+}
+
 #thanks .underline {
 	margin-bottom: 3em
 }
