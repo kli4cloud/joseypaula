@@ -29,7 +29,7 @@
             a = e("./components/mark"),
             s = e("./components/faq"),
             c = e("./components/navrsvpwrap");
-        r.render(r.createElement(i, null), document.getElementById("schedule-body")), r.render(r.createElement(c, null), document.getElementById("header")), r.render(r.createElement(o, null), document.getElementById("hotel-button")), r.render(r.createElement(s, null), document.getElementById("faq")), r.render(r.createElement(a, {
+        r.render(r.createElement(i, null), document.getElementById("schedule-body")), r.render(r.createElement(c, null), document.getElementById("header")), r.render(r.createElement(s, null), document.getElementById("faq")), r.render(r.createElement(a, {
             id: "markSvg"
         }), document.getElementById("mark"))
     }, {
@@ -215,13 +215,13 @@
                     className: "underline"
                 })), o.createElement("div", {
                     className: "faq-section"
-                }, o.createElement("h3", null, "YOUR CALENDAR"), e), o.createElement("div", {
+                }, e), o.createElement("div", {
                     className: "faq-section"
-                }, o.createElement("h3", null, "YOUR SUITCASE"), t), o.createElement("div", {
+                }, t), o.createElement("div", {
                     className: "faq-section"
-                }, o.createElement("h3", null, "YOUR BELLIES"), n), o.createElement("div", {
+                }, n), o.createElement("div", {
                     className: "faq-section"
-                }, o.createElement("h3", null, "YOUR PHOTOS"), a))
+                }, a))
             }
         })
     }, {
