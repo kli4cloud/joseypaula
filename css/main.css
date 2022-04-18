@@ -85,7 +85,7 @@ input[type=submit] {
 	-o-appearance: none;
 	appearance: none;
 	-webkit-font-smoothing: antialiased;
-	background-color: #b18f3a;
+	background-color: #d38377;
 	border: none;
 	color: #fff;
 	cursor: pointer;
@@ -175,8 +175,8 @@ a {
 a:active,
 a:focus,
 a:hover {
-	border-bottom: 1px solid #b18f3a;
-	color: #b18f3a;
+	border-bottom: 1px solid #d38377;
+	color: #d38377;
 	background: rgba(177, 143, 58, .2)
 }
 
@@ -229,7 +229,7 @@ html {
 }
 
 #destination {
-	background-color: #eabf8b;
+	background-color: #efc19d;
 	color: #fff
 }
 
@@ -238,7 +238,7 @@ html {
 }
 
 #aboutus {
-	background-color: #50b796;
+	background-color: #799893;
 	color: #fff
 }
 
@@ -247,36 +247,32 @@ html {
 }
 
 #getting-there {
-	background-color: #50b796;
+	background-color: #7a9893;
 	color: #fff
 }
 
 #getting-there .underline {
-	border-color: #000
-}
-
-#activity .underline,
-#lodging .underline,
-#registry .underline,
-#schedule .underline,
-#wedding-party .underline {
-	border-color: #b18f3a
+	border-color: #fff
 }
 
 #schedule {
-	background-color: #e4f1e0
 }
 
 #rsvp {
-	background-color: #e4f1e0
+	background-color: #9cb8b4;
+    color: #fff;
+}
+
+#rsvp .underline {
+	border-color: #fff
 }
 
 #lodging {
-	background-color: #f9ded8
+	background-color: #f5dece
 }
 
 #thanks {
-	background-color: #7f73ba;
+	background-color: #d38377;
 	color: #fff
 }
 
@@ -285,7 +281,7 @@ html {
 }
 
 #footer {
-	background: #7f73ba;
+	background: #d38377;
 	padding-bottom: 1em
 }
 
@@ -338,7 +334,7 @@ input[type=submit].link-button {
 input[type=submit].link-button:active,
 input[type=submit].link-button:focus,
 input[type=submit].link-button:hover {
-	color: #b18f3a;
+	color: #d38377;
 	background-color: #fff;
 	border-bottom-width: 2px;
 	border-color: #fff
@@ -346,8 +342,8 @@ input[type=submit].link-button:hover {
 
 .link-button.golden,
 input[type=submit].link-button.golden {
-	color: #b18f3a;
-	border-color: #b18f3a
+	color: #d38377;
+	border-color: #d38377
 }
 
 .link-button.golden:active,
@@ -357,8 +353,8 @@ input[type=submit].link-button.golden:active,
 input[type=submit].link-button.golden:focus,
 input[type=submit].link-button.golden:hover {
 	color: #fff;
-	background-color: #b18f3a;
-	border-color: #b18f3a
+	background-color: #d38377;
+	border-color: #d38377
 }
 
 @media screen and (max-width:667px) {
@@ -578,9 +574,9 @@ input[type=submit].link-button.golden:hover {
     display:inline-block;
     position:relative;
     text-align:center;
-	color: #b18f3a;
+	color: #d38377;
 	text-decoration: none;
-	border-color: #b18f3a;
+	border-color: #d38377;
 	font-size: 19.2px;
 }
 
@@ -602,16 +598,16 @@ input[type=submit].link-button.golden:hover {
 	display: inline-block;
 	position: relative;
 	z-index: 49;
-	color: #b18f3a;
+	color: #d38377;
 	text-decoration: none;
-	border-color: #b18f3a
+	border-color: #d38377
 }
 
 .addthisevent-drop:hover {
 	color: #fff;
 	text-decoration: none;
-	background: #b18f3a;
-	border-color: #b18f3a
+	background: #d38377;
+	border-color: #d38377
 }
 
 .addthisevent_dropdown {
@@ -619,7 +615,7 @@ input[type=submit].link-button.golden:hover {
 	position: absolute;
 	z-index: 50;
 	padding: 0;
-	background: #b18f3a;
+	background: #d38377;
 	text-align: left;
 	display: none;
 	margin-top: -2px;
@@ -639,7 +635,7 @@ input[type=submit].link-button.golden:hover {
 
 .addthisevent_dropdown span:hover {
 	background: #fff;
-	color: #b18f3a;
+	color: #d38377;
 	text-decoration: none;
 	font-size: 9pt
 }
@@ -659,7 +655,7 @@ input[type=submit].link-button.golden:hover {
 }
 
 .addthisevent_dropdown .frs:hover {
-	color: #b18f3a
+	color: #d38377
 }
 
 .addthisevent {
@@ -711,7 +707,7 @@ input[type=submit].link-button.golden:hover {
 	overflow-y: scroll;
 	background: #fff;
 	position: relative;
-	border: 4px solid #b18f3a;
+	border: 4px solid #d38377;
 	z-index: 202
 }
 
@@ -724,7 +720,7 @@ input[type=submit].link-button.golden:hover {
 
 #overlay-container #overlay .overlayBack:hover {
 	cursor: pointer;
-	color: #b18f3a;
+	color: #d38377;
 	background: 0 0
 }
 
@@ -772,7 +768,7 @@ input[type=submit].link-button.golden:hover {
 		height: 0
 	}
 	#overlay-container .indicate-overflow {
-		background-color: #b18f3a;
+		background-color: #d38377;
 		left: 0;
 		right: 0;
 		bottom: 0;
@@ -845,7 +841,7 @@ input[type=submit].link-button.golden:hover {
 
 #rsvp-banner a:hover {
 	background: 0 0;
-	color: #b18f3a
+	color: #d38377
 }
 
 #overlay-container #overlay.rsvp.notComing .link-button,
@@ -857,11 +853,11 @@ input[type=submit].link-button.golden:hover {
 }
 
 #overlay-container #overlay.rsvp {
-	border-color: #b18f3a
+	border-color: #d38377
 }
 
 #overlay-container #overlay.rsvp .underline {
-	border-color: #b18f3a;
+	border-color: #d38377;
 	margin-bottom: 2em
 }
 
@@ -881,7 +877,7 @@ input[type=submit].link-button.golden:hover {
 }
 
 #overlay-container #overlay.rsvp.intro {
-	background: #f9ad81;
+	background: #d38377;
 	color: #fff;
 	border-color: #fff
 }
@@ -909,7 +905,7 @@ input[type=submit].link-button.golden:hover {
 
 #overlay-container #overlay.rsvp.start,
 #overlay-container #overlay.rsvp.start .underline {
-	border-color: #b18f3a
+	border-color: #d38377
 }
 
 #overlay-container #overlay.rsvp.otherEvents {
@@ -984,7 +980,7 @@ input[type=submit].link-button.golden:hover {
 
 .rsvp-person-show .rsvp-person-answer.checked {
 	color: #000;
-	border-bottom: 4px solid #b18f3a
+	border-bottom: 4px solid #d38377
 }
 
 @media screen and (max-width:667px) {
@@ -1099,7 +1095,7 @@ input[type=submit].link-button.golden:hover {
 
 .centered-navigation .nav-mobile-menu:focus,
 .centered-navigation .nav-mobile-menu:hover {
-	color: #b18f3a
+	color: #d38377
 }
 
 .centered-navigation .navigation-wrapper {
@@ -1173,7 +1169,7 @@ input[type=submit].link-button.golden:hover {
 .centered-navigation ul li.nav-link a:focus,
 .centered-navigation ul li.nav-link a:hover {
 	background: 0 0;
-	color: #b18f3a
+	color: #d38377
 }
 
 @media screen and (min-width:768px) {
@@ -1201,8 +1197,7 @@ input[type=submit].link-button.golden:hover {
 	-webkit-align-content: center;
 	-ms-flex-line-pack: center;
 	align-content: center;
-	background-color: #f9ad81;
-	background-image: url(https://s3.amazonaws.com/ameliaandsteveassets/topo.svg);
+	background-color: #d38377;
 	-webkit-background-size: cover;
 	background-size: cover;
 	color: #fff;
@@ -1275,8 +1270,13 @@ input[type=submit].link-button.golden:hover {
 }
 
 #overview h2 {
-	color: green
+	color: #d38377;
 }
+
+#overview .underline {
+	border-bottom-color: #d38377;
+}
+
 
 #overview #when-icon,
 #overview #where-icon,
@@ -1347,7 +1347,7 @@ input[type=submit].link-button.golden:hover {
 }
 
 #getting-there h3 {
-	color: #000
+	color: #fff
 }
 
 #getting-there #airplane-svg,
@@ -1523,12 +1523,12 @@ input[type=submit].link-button.golden:hover {
 }
 
 #schedule .day.active {
-	border-bottom: 4px solid #b18f3a
+	border-bottom: 4px solid #d38377
 }
 
 #schedule .day:hover {
 	background: 0 0;
-	color: #b18f3a;
+	color: #d38377;
 	cursor: pointer
 }
 
@@ -1592,7 +1592,7 @@ input[type=submit].link-button.golden:hover {
 	text-decoration: none;
 	border: none;
 	font-weight: 700;
-	color: #b18f3a;
+	color: #d38377;
 	padding-left: .5em;
 	padding-right: .5em
 }
@@ -1918,9 +1918,13 @@ input[type=submit].link-button.golden:hover {
 }
 
 #travel {
-    background-color: #eabf8b;
+    background-color: #7a9893;
     color: #fff;
 	min-height: 90vh
+}
+
+#travel .underline {
+	border-color: #fff
 }
 
 #thanks .underline {
@@ -1992,7 +1996,7 @@ input[type=submit].link-button.golden:hover {
 #faq .faq h5 a:hover {
 	background: 0 0;
 	cursor: pointer;
-	color: #b18f3a
+	color: #d38377
 }
 
 #faq .faq .faq-answer {

@@ -350,6 +350,11 @@
                         className: "nav-link"
                     }, r.createElement("a", {
                         onClick: this.close,
+                        href: "#aboutus"
+                    }, "NOSOTROS")),r.createElement("li", {
+                        className: "nav-link mobile-only"
+                    }, r.createElement("a", {
+                        onClick: this.close,
                         href: "#destination"
                     }, "DESTINO SEVILLA")), r.createElement("li", {
                         className: "nav-link mobile-only"
@@ -372,21 +377,26 @@
                         onClick: this.close,
                         href: "#lodging"
                     }, "ALOJAMIENTO")), r.createElement("li", {
-                        className: "nav-link mobile-only"
-                    }, r.createElement("a", {
-                        onClick: this.close,
-                        href: "#wedding-party"
-                    }, "WEDDING PARTY")), r.createElement("li", {
-                        className: "nav-link mobile-only"
-                    }, r.createElement("a", {
-                        onClick: this.close,
-                        href: "#registry"
-                    }, "VIAJE DE NOVIOS")), r.createElement("li", {
                         className: "nav-link"
                     }, r.createElement("a", {
                         onClick: this.close,
+                        href: "#rsvp"
+                    }, "CONFIRMAR ASISTENCIA")), r.createElement("li", {
+                        className: "nav-link"
+                    }, r.createElement("a", {
+                        onClick: this.close,
+                        href: "#travel"
+                    }, "VIAJE DE NOVIOS")), r.createElement("li", {
+                        className: "nav-link mobile-only"
+                    }, r.createElement("a", {
+                        onClick: this.close,
                         href: "#faq"
-                    }, "FAQ")))))
+                    }, "FAQ")), r.createElement("li", {
+                        className: "nav-link mobile-only"
+                    }, r.createElement("a", {
+                        onClick: this.close,
+                        href: "#thanks"
+                    }, "CONTACTAR")))))
                 }
             }));
         t.exports = i
