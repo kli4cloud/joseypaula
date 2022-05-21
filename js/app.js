@@ -1260,10 +1260,9 @@
                         map: "https://g.page/hotelensevilla?share"
                      }],
                     domingo: [{
-                        name: "Brunch de despedida",
+                        name: "Desayuno de despedida",
                         attendees: "Todos los huespedes del Cortijo",
-                        dress: "Casual",
-                        time: "12:00 a 13:00",
+                        time: "11:00 a 13:00",
                         location: "Cortijo El Esparragal",
                         map: "https://g.page/hotelensevilla?share"
                     }]
