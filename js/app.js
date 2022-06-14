@@ -158,7 +158,7 @@
             }],
             suitcase: [{
                 q: "¿Cuándo debería llegar a Sevilla?",
-                a: "<p>Podéis llegar a Sevilla cuando os apetezca en función de lo que prefiráis hacer, pero entendemos que puede haber restricciones de vuelos, por ejemplo. Aunque el viernes ya hay algún evento, la boda empieza el sábado 10 de septiembre a las XX en el Cortijo el Esparragal, así que esta es la fecha y hora a tener en cuenta. Si vas a necesitar el servicio de traslado de autobús al cortijo, entonces tendrás que estar list@ a las XX en XX. </p>"
+                a: "<p>Podéis llegar a Sevilla cuando os apetezca en función de lo que prefiráis hacer, pero entendemos que puede haber restricciones de vuelos, por ejemplo. Aunque el viernes ya hay algún evento, la boda empieza el sábado 10 de septiembre a las 18:45 en el Cortijo el Esparragal, así que esta es la fecha y hora a tener en cuenta. Si vas a necesitar el servicio de traslado de autobús al cortijo, entonces tendrás que estar list@ a las 18:00 en Plaza de Cuba (Sevilla) o 17:45 en el Paseo de la Feria (Mairena del Alcor).</p>"
             }, {
                 q: "¿Va a ser un fiestón?",
                 a: "<p>¡CONFIRMAMOS QUE SI!</p>"
@@ -860,22 +860,9 @@
                         attending: e.bridalBrunchCount || 0
                     }))
                 }
-                if (e.invitedFlowerFarm) {
-                    var c = r.find(t.viernes, function(e) {
-                        return "Recepción de invitados" === e.name
-                    });
-                    i.push(o.createElement(a, {
-                        key: "flowerFarmCount",
-                        day: "Friday",
-                        eventDetails: c,
-                        countName: "flowerFarmCount",
-                        maxAttending: n,
-                        attending: e.flowerFarmCount || 0
-                    }))
-                }
                 if (e.invitedRehearsalDinner) {
                     var u = r.find(t.viernes, function(e) {
-                        return "Cena de bienvenida" === e.name
+                        return "Cocktail de bienvenida" === e.name
                     });
                     i.push(o.createElement(a, {
                         key: "rehearsalDinnerCount",
@@ -885,19 +872,6 @@
                         eventDetails: u,
                         maxAttending: n,
                         attending: e.rehearsalDinnerCount || 0
-                    }))
-                }
-                if (e.invitedWelcomeParty) {
-                    var l = r.find(t.viernes, function(e) {
-                        return "Fiesta de bienvenida" === e.name
-                    });
-                    i.push(o.createElement(a, {
-                        key: "welcomePartyCount",
-                        day: "Friday",
-                        countName: "welcomePartyCount",
-                        eventDetails: l,
-                        maxAttending: n,
-                        attending: e.welcomePartyCount || 0
                     }))
                 }
                 if (i.push(o.createElement("div", {
@@ -1161,7 +1135,7 @@
                     className: "attendees"
                 }, e.attendees), r.createElement("p", {
                     className: "dress"
-                }, e.dress ? "Dress: " + e.dress : "")), r.createElement("div", {
+                }, e.dress ? "Dress code: " + e.dress : "")), r.createElement("div", {
                     className: "right-side"
                 }, r.createElement("p", null, e.time), r.createElement("p", null, t)))
             }
@@ -1194,77 +1168,72 @@
                 },
                 days: {
                     viernes: [{
-                        name: "Recepción de invitados",
-                        attendees: "Familia e Invitados de fuera de Sevilla",
-                        dress: "Casual",
-                        time: "20:30 a 21:00PM",
+                        name: "Cóctel de bienvenida",
+                        attendees: "Amigos de los novios y testigos",
+                        dress: "Elegante casual",
+                        time: "20:00 a 23:00",
                         location: "Terraza Hotel Doña María",
-                        map: "https://g.page/terrazadonamaria?share"
-                    }, {
-                        name: "Cena de bienvenida",
-                        attendees: "Familia e Invitados de fuera de Sevilla",
-                        dress: "Casual",
-                        time: "21:00 a 22:45PM",
-                        location: "Terraza Hotel Doña María",
-                        map: "https://g.page/terrazadonamaria?share"
-                    }, {
-                        name: "Fiesta de bienvenida",
-                        attendees: "Todos los invitados",
-                        time: "22:45 en adelante",
-                        dress: "Casual",
-                        location: "Terraza Hotel Doña María",
-                        map: "https://g.page/terrazadonamaria?share"
+                        map: "https://goo.gl/maps/JEV65RdKTVFPveiH9"
                     }],
                     sabado: [{
-                        name: "Traslado (BUS)",
-                        attendees: "Todos los interesados",
-                        time: "18:00",
-                        location: "Plaza de Cuba",
-                        map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
+                        name: "Traslado (autobús)",
+                        time: "Punto de recogida",
+                        attendees: "Invitados alojados en el cortijo (15:30) Invitados Mairena del Alcor (17:45) Invitados desde Sevilla (18:00)",
+                        location: "Desde Sevilla ciudad: Plaza de Cuba Desde Mairena: Paseo de la Feria",
                     }, {
+                       name: "Recepción de invitados",
+                       attendees: "Todos los invitados",
+                       dress: "Etiqueta/Semi formal",
+                       time: "18:45",
+                       location: "Cortijo El Esparragal",
+                       map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
+                   }, {
                         name: "Ceremonia",
                         attendees: "Todos los invitados",
-                        dress: "Classy yet comfortable",
-                        time: "20:00 a 20:45",
+                        dress: "Etiqueta/Semi formal",
+                        time: "19:00",
                         location: "Cortijo El Esparragal",
-                        map: "https://g.page/hotelensevilla?share"
+                        map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
                     }, {
-                        name: "Cocktail",
+                        name: "Cóctel",
                         attendees: "Todos los invitados",
-                        time: "21:00 a 22:30",
+                        dress: "Etiqueta/Semi formal",
+                        time: "20:00",
                         location: "Cortijo El Esparragal",
-                        map: "https://g.page/hotelensevilla?share"
+                        map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
                     }, {
                        name: "Cena",
                        attendees: "Todos los invitados",
-                       time: "22:30 a 00:00",
+                       dress: "Etiqueta/Semi formal",
+                       time: "22:00",
                        location: "Cortijo El Esparragal",
-                       map: "https://g.page/hotelensevilla?share"
+                       map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
                     }, {
                        name: "Fiesta",
                        attendees: "Todos los invitados",
+                       dress: "Etiqueta/Semi formal",
                        time: "00:00",
                        location: "Cortijo El Esparragal",
-                       map: "https://g.page/hotelensevilla?share"
+                       map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
                     }, {
-                       name: "Salida 1º autobus de vuelta",
+                       name: "Autobús de vuelta",
                        attendees: "Todos los interesados",
-                       time: "02:00",
+                       time: "01:30, 03:30, 05:30",
+                       map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
+                    }],
+                    domingo: [
+                    {
+                       name: "Desayuno post boda",
+                       attendees: "Invitados alojados en el cortijo",
+                       time: "10:00 a 12:00",
                        location: "Cortijo El Esparragal",
-                       map: "https://g.page/hotelensevilla?share"
+                       map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
                     }, {
-                        name: "Salida 2º bus de vuelta",
+                        name: "Comida de despedida",
                         attendees: "Todos los interesados",
-                        time: "05:00",
-                        location: "Cortijo El Esparragal",
-                        map: "https://g.page/hotelensevilla?share"
-                     }],
-                    domingo: [{
-                        name: "Desayuno de despedida",
-                        attendees: "Todos los huespedes del Cortijo",
-                        time: "11:00 a 13:00",
-                        location: "Cortijo El Esparragal",
-                        map: "https://g.page/hotelensevilla?share"
+                        time: "15:00",
+                        location: "TBC",
+                        map: "https://goo.gl/maps/Ny8Hh6V3wevCbBjz9"
                     }]
                 }
             },
