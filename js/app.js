@@ -160,19 +160,16 @@
                 q: "¿Cuándo debería llegar a Sevilla?",
                 a: "<p>Podéis llegar a Sevilla cuando os apetezca en función de lo que prefiráis hacer, pero entendemos que puede haber restricciones de vuelos, por ejemplo. Aunque el viernes ya hay algún evento, la boda empieza el sábado 10 de septiembre a las 18:45 en el Cortijo el Esparragal, así que esta es la fecha y hora a tener en cuenta. Si vas a necesitar el servicio de traslado de autobús al cortijo, entonces tendrás que estar list@ a las 18:00 en Plaza de Cuba (Sevilla) o 17:45 en el Paseo de la Feria (Mairena del Alcor).</p>"
             }, {
-                q: "¿Va a ser un fiestón?",
-                a: "<p>¡CONFIRMAMOS QUE SI!</p>"
-            }]/*, {
-                q: "What will the weather be like in Asheville that time of year?",
-                a: "<p>Asheville averages a high of 77F and a low of 57F during the month of September. A light jacket and/or rain gear may be useful during your stay.</p>"
+                q: "¿Solo se puede ir a la boda el sábado en los autobuses reservados?",
+                a: "<p>No, podéis ir en vuestro propio vehículo si así lo preferís, el cortijo cuenta con parking. Pero recuerda, si bebes, no conduzcas!</p>"
             }],
             bellies: [{
-                q: "Will you be serving alcohol at the reception?",
-                a: "<p>Yes, we will be serving beer and wine, along with an assortment of non-alcoholic beverages.</p>"
+                q: "¿Cómo funcionan los autobuses del vuelta por la noche?",
+                a: "<p>Hay 3 horarios de autobuses de vuelta, 1:30, 3:30 y 5:30. Estos autobuses te recogen en la entrada del cortijo, paran en Sevilla (Plaza de Cuba) y a continuación siguen a Mairena del Alcor (Paseo del a Feria), donde terminan la ruta.</p>"
             }, {
-                q: "Will you be accommodating any diet restrictions?",
-                a: "<p>We will accommodate full vegetarian meals and have a few gluten free options. If you have any dietary concerns, please feel free to let us know so we can explore options for you!</p>"
-            }],
+                q: "¿Va a ser un fiestón?",
+                a: "<p>¡CONFIRMAMOS QUE SI!</p>"
+            }]/*,
             photos: [{
                 q: "Can I take pictures during the ceremony?",
                 a: "<p>We are asking everyone to not take photos during the ceremony. Please keep your phones and cameras in your pockets or bags. We will have professional photographers and videographers capturing the ceremony and we'll share the results!</p>"
