@@ -161,11 +161,11 @@
                 a: "<p>Podéis llegar a Sevilla cuando os apetezca en función de lo que prefiráis hacer, pero entendemos que puede haber restricciones de vuelos, por ejemplo. Aunque el viernes ya hay algún evento, la boda empieza el sábado 10 de septiembre a las 18:45 en el Cortijo el Esparragal, así que esta es la fecha y hora a tener en cuenta. Si vas a necesitar el servicio de traslado de autobús al cortijo, entonces tendrás que estar list@ a las 18:00 en Plaza de Cuba (Sevilla) o 17:45 en el Paseo de la Feria (Mairena del Alcor).</p>"
             }, {
                 q: "¿Solo se puede ir a la boda el sábado en los autobuses reservados?",
-                a: "<p>No, podéis ir en vuestro propio vehículo si así lo preferís, el cortijo cuenta con parking. Pero recuerda, si bebes, no conduzcas!</p>"
+                a: "<p>No, podéis ir en vuestro propio vehículo si así lo preferís, el cortijo cuenta con parking. Pero recuerda, si bebes, ¡no conduzcas!</p>"
             }],
             bellies: [{
                 q: "¿Cómo funcionan los autobuses del vuelta por la noche?",
-                a: "<p>Hay 3 horarios de autobuses de vuelta, 1:30, 3:30 y 5:30. Estos autobuses te recogen en la entrada del cortijo, paran en Sevilla (Plaza de Cuba) y a continuación siguen a Mairena del Alcor (Paseo del a Feria), donde terminan la ruta.</p>"
+                a: "<p>Hay 3 horarios de autobuses de vuelta, 1:30, 3:30 y 5:30. Estos autobuses te recogen en la entrada del cortijo, paran en Sevilla (Plaza de Cuba) y a continuación siguen a Mairena del Alcor (Paseo de la Feria), donde terminan la ruta.</p>"
             }, {
                 q: "¿Va a ser un fiestón?",
                 a: "<p>¡CONFIRMAMOS QUE SI!</p>"
