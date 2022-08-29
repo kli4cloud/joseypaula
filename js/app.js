@@ -165,7 +165,7 @@
             }],
             bellies: [{
                 q: "¿Cómo funcionan los autobuses del vuelta por la noche?",
-                a: "<p>Hay 3 horarios de autobuses de vuelta, 1:30, 3:30 y 5:30. Estos autobuses te recogen en la entrada del cortijo, paran en Sevilla (Plaza de Cuba) y a continuación siguen a Mairena del Alcor (Paseo de la Feria), donde terminan la ruta.</p>"
+                a: "<p>Hay 3 horarios de autobuses de vuelta, 1:00, 3:15 y 5:30. Estos autobuses te recogen en la entrada del cortijo, paran en Sevilla (Plaza de Cuba) y a continuación siguen a Mairena del Alcor (Paseo de la Feria), donde terminan la ruta.</p>"
             }, {
                 q: "¿Va a ser un fiestón?",
                 a: "<p>¡CONFIRMAMOS QUE SI!</p>"
@@ -1215,7 +1215,7 @@
                     }, {
                        name: "Autobús de vuelta",
                        attendees: "Todos los interesados",
-                       time: "01:30, 03:30, 05:30",
+                       time: "01:00, 03:15, 05:30",
                        map: "https://goo.gl/maps/vuLF3i3sfvqeyBiW7"
                     }],
                     domingo: [
